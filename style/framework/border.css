@@ -1,3 +1,7 @@
 .rad-6 {
     border-radius: 6px;
 }
+
+.b-none {
+    border: none;
+}

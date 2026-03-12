@@ -30,12 +30,6 @@
 
 .welcome .visit {
     margin: 0 15px 15px auto;
-    transition: var(--transition-duration);
-}
-
-.welcome .visit:hover {
-    transform: translateY(-1px);
-    background-color: var(--blue-alt-color);
 }
 
 @media (max-width: 767px) {

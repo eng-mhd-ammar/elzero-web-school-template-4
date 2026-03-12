@@ -1,0 +1,11 @@
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+    transition: var(--transition-duration);
+    cursor: pointer;
+}
+
+.btn-shape:hover {
+    transform: translateY(-1px);
+    background-color: var(--blue-alt-color);
+}

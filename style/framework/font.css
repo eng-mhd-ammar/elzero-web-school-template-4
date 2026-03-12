@@ -6,6 +6,11 @@
     font-size: 14px;
 }
 
+
+.fs-15 {
+    font-size: 15px;
+}
+
 @media (max-width: 767px) {
     .txt-c-mobile {
         text-align: center;
