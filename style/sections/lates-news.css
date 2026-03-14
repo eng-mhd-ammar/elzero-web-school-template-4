@@ -1,0 +1,29 @@
+.latest-news .news-row:not(:last-of-type) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EEE;
+}
+
+.latest-news .news-row img {
+    width: 100px;
+}
+
+.latest-news .info {
+    flex-grow: 1;
+}
+
+.latest-news .info h3 {
+    margin: 0 0 6px;
+}
+
+.latest-news .news-row .label {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+@media (max-width: 767px) {
+    .latest-news .news-row .label {
+        margin: 10px auto;
+        width: fit-content;
+    }
+}

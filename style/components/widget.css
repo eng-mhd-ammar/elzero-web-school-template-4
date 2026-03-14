@@ -1,0 +1,11 @@
+.widget {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* @media (max-width: 767px) {
+    .widget {
+        text-align: center;
+    }
+} */
