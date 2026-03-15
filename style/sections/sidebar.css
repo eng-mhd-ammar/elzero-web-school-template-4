@@ -7,6 +7,11 @@
     margin-bottom: 50px;
 }
 
+
+.sidebar .logo {
+    margin-bottom: 10px;
+}
+
 .sidebar > h3::before {
     content: "";
     width: 80px;
@@ -50,8 +55,9 @@
     }
 
     .sidebar > h3 {
-        font-size: 13px;
-        margin-bottom: 15px;
+        /* font-size: 13px;
+        margin-bottom: 15px; */
+        display: none;
     }
     
     .sidebar > h3::before, .sidebar > h3::after {
@@ -60,5 +66,9 @@
 
     .sidebar ul li a span {
         display: none;
+    }
+
+    .sidebar .logo {
+        display: block;
     }
 }
