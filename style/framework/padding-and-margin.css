@@ -18,6 +18,10 @@
     padding-top: 15px;
 }
 
+.pt-20 {
+    padding-top: 20px;
+}
+
 .pr-10 {
     padding-right: 10px;
 }
@@ -28,6 +32,10 @@
 
 .pb-15 {
     padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
 }
 
 .pl-10 {

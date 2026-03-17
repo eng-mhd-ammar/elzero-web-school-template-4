@@ -1,0 +1,12 @@
+.last-post .avatar {
+    width: 48px;
+    height: 48px;
+}
+
+.last-post .post-content {
+    text-transform: capitalize;
+    line-height: 1.8;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    min-height: 140px;
+}
