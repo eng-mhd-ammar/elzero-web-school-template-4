@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="style/sections/dashboard/reminders.css">
     <link rel="stylesheet" href="style/sections/dashboard/last-post.css">
     <link rel="stylesheet" href="style/sections/dashboard/social-media.css">
+    <link rel="stylesheet" href="style/sections/dashboard/projects-table.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -118,6 +119,7 @@
             </div>
             <!-- End Head -->
             <h1 class="p-relative">Dashboard</h1>
+            <!-- Start Widgets -->
             <div class="wrapper d-grid gap-20 gap-10-mobile">
                 <!-- Start Welcome Widget -->
                 <div class="welcome widget txt-c-mobile">
@@ -139,7 +141,7 @@
                 <!-- End Welcome Widget -->
                 <!-- Start Quick Draft Widget -->
                 <div class="quick-draft widget">
-                    <h2 class="mt-0 mb-10 ">Quick Draft</h2>
+                    <h2 class="mt-0 mb-10">Quick Draft</h2>
                     <pc class="mt-0 mb-20 c-grey fs-15">Write a Draft for Your Ideas</p>
                     <form action="POST">
                         <input type="text" name="title" placeholder="Title" class="d-block mb-20 w-full p-10 b-none bg-eee rad-6">
@@ -533,6 +535,103 @@
                 </div>
                 <!-- End Social Media Stats -->
             </div>
+            <!-- End Widgets -->
+            <!-- Start Projects Table -->
+            <div class="projects p20 pg-white rad-10 m-20">
+                <h2 class="mt-0 mb-10">Projects</h2>
+                <div class="responsive-table">
+                    <table class="fs-15 w-full">
+                        <thead>
+                            <tr>
+                                <td class="bg-eee fw-bold p-15">Name</td>
+                                <td class="bg-eee fw-bold p-15">Finish Date</td>
+                                <td class="bg-eee fw-bold p-15">Client</td>
+                                <td class="bg-eee fw-bold p-15">Price</td>
+                                <td class="bg-eee fw-bold p-15">Team</td>
+                                <td class="bg-eee fw-bold p-15">Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="p-15">Ministry Wikipedia</td>
+                                <td class="p-15">10 May 2022</td>
+                                <td class="p-15">Ministry</td>
+                                <td class="p-15">5300$</td>
+                                <td class="p-15">
+                                    <img src="images/g1140.webp" alt="" class="rad-half">
+                                    <img src="images/g1276.webp" alt="" class="rad-half">
+                                    <img src="images/g1310.webp" alt="" class="rad-half">
+                                    <img src="images/g1384.webp" alt="" class="rad-half">
+                                </td>
+                                <td><span class="label bg-orange c-white">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-15">Elzero Shop</td>
+                                <td class="p-15">12 Oct 2022</td>
+                                <td class="p-15">Elzero Company</td>
+                                <td class="p-15">1500$</td>
+                                <td class="p-15">
+                                    <img src="images/g1140.webp" alt="" class="rad-half">
+                                    <img src="images/g1276.webp" alt="" class="rad-half">
+                                    <img src="images/g1310.webp" alt="" class="rad-half">
+                                </td>
+                                <td><span class="label bg-blue c-white">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-15">Rouba Application</td>
+                                <td class="p-15">05 Sep 2021</td>
+                                <td class="p-15">Rouba</td>
+                                <td class="p-15">800$</td>
+                                <td class="p-15">
+                                    <img src="images/g1140.webp" alt="" class="rad-half">
+                                    <img src="images/g1276.webp" alt="" class="rad-half">
+                                    <img src="images/g1310.webp" alt="" class="rad-half">
+                                </td>
+                                <td><span class="label bg-green c-white">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-15">Mahmoud Website</td>
+                                <td class="p-15">22 May 2021</td>
+                                <td class="p-15">Mahmoud</td>
+                                <td class="p-15">600$</td>
+                                <td class="p-15">
+                                    <img src="images/g1140.webp" alt="" class="rad-half">
+                                    <img src="images/g1276.webp" alt="" class="rad-half">
+                                    <img src="images/g1310.webp" alt="" class="rad-half">
+                                </td>
+                                <td><span class="label bg-green c-white">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-15">Sayed Website</td>
+                                <td class="p-15">24 May 2021</td>
+                                <td class="p-15">Sayed</td>
+                                <td class="p-15">300$</td>
+                                <td class="p-15">
+                                    <img src="images/g1140.webp" alt="" class="rad-half">
+                                    <img src="images/g1276.webp" alt="" class="rad-half">
+                                    <img src="images/g1310.webp" alt="" class="rad-half">
+                                    <img src="images/g1384.webp" alt="" class="rad-half">
+                                </td>
+                                <td><span class="label bg-red c-white">Rejected</span></td>
+                            </tr>
+                            <tr>
+                                <td class="p-15">Arena Application</td>
+                                <td class="p-15">01 Mar 2021</td>
+                                <td class="p-15">Arena Company</td>
+                                <td class="p-15">2600$</td>
+                                <td class="p-15">
+                                    <img src="images/g1140.webp" alt="" class="rad-half">
+                                    <img src="images/g1276.webp" alt="" class="rad-half">
+                                    <img src="images/g1310.webp" alt="" class="rad-half">
+                                    <img src="images/g1384.webp" alt="" class="rad-half">
+                                </td>
+                                <td><span class="label bg-green c-white">Completed</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- End Projects Table -->
         </div>
     </div>
 </body>

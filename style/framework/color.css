@@ -1,51 +1,51 @@
 .bg-white {
-    background-color: white;
+    background-color: white !important;
 }
 
 .bg-eee {
-    background-color: #eee;
+    background-color: #eee !important;
 }
 
 .bg-orange {
-    background-color: var(--orange-color);
+    background-color: var(--orange-color) !important;
 }
 
 .bg-green {
-    background-color: var(--green-color);
+    background-color: var(--green-color) !important;
 }
 
 .bg-blue {
-    background-color: var(--blue-color);
+    background-color: var(--blue-color) !important;
 }
 
 .bg-red {
-    background-color: var(--red-color);
+    background-color: var(--red-color) !important;
 }
 
 .c-black {
-    color: black;
+    color: black !important;
 }
 
 .c-grey {
-    color: var(--grey-color);
+    color: var(--grey-color) !important;
 }
 
 .c-orange {
-    color: var(--orange-color);
+    color: var(--orange-color) !important;
 }
 
 .c-green {
-    color: var(--green-color);
+    color: var(--green-color) !important;
 }
 
 .c-blue {
-    color: var(--blue-color);
+    color: var(--blue-color) !important;
 }
 
 .c-red {
-    color: var(--red-color);
+    color: var(--red-color) !important;
 }
 
 .c-white {
-    color: white;
+    color: white !important;
 }

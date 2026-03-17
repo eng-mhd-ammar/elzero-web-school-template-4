@@ -1,0 +1,33 @@
+.projects .responsive-table {
+    overflow-x: auto;
+}
+
+.projects table {
+    min-width: 1000px;
+    border-spacing: 0;
+}
+
+.projects table tbody td {
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+    transition: var(--transition-duration);
+}
+
+.projects table tbody tr td:last-child {
+    border-right: 1px solid #EEE;
+}
+
+.projects table tbody tr:hover td {
+    background-color: #FAF7F7;
+}
+
+.projects table img {
+    width: 32px;
+    height: 32px;
+    padding: 2px;
+    background-color: white;
+}
+
+.projects table img:not(:first-child) {
+    margin-left: -20px;
+}
