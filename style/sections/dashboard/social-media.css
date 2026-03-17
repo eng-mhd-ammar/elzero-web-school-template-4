@@ -1,0 +1,65 @@
+:root {
+    --x-color: #000000;
+    --x-alt-color: rgb(0 0 0 / 20%);
+    
+    --facebook-color: #1877F2;
+    --facebook-alt-color: rgb(24 119 242 / 20%);
+    
+    --youtube-color: #FF0000;
+    --youtube-alt-color: rgb(255 0 0 / 20%);
+    
+    --linkedin-color: #0A66C2;
+    --linkedin-alt-color: rgb(10 102 194 / 20%);
+}
+
+.social-media .box {
+    padding-left: 70px;
+}
+
+.social-media .box i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    transition: var(--transition-duration);
+}
+
+.social-media .box i:hover {
+    transform: rotate(5deg);
+}
+
+.social-media .x {
+    background-color: var(--x-alt-color);
+    color: var(--x-color);
+}
+
+.social-media .x i, .social-media .x a {
+    background-color: var(--x-color);
+}
+
+.social-media .facebook {
+    background-color: var(--facebook-alt-color);
+    color: var(--facebook-color);
+}
+
+.social-media .facebook i, .social-media .facebook a {
+    background-color: var(--facebook-color);
+}
+
+.social-media .youtube {
+    background-color: var(--youtube-alt-color);
+    color: var(--youtube-color);
+}
+
+.social-media .youtube i, .social-media .youtube a {
+    background-color: var(--youtube-color);
+}
+
+.social-media .linkedin {
+    background-color: var(--linkedin-alt-color);
+    color: var(--linkedin-color);
+}
+
+.social-media .linkedin i, .social-media .linkedin a {
+    background-color: var(--linkedin-color);
+}
