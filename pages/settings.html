@@ -32,6 +32,8 @@
     <!-- Sections CSS Files -->
     <link rel="stylesheet" href="../style/sections/sidebar.css">
     <link rel="stylesheet" href="../style/sections/content.css">
+    <link rel="stylesheet" href="../style/sections/settings/control.css">
+    <link rel="stylesheet" href="../style/sections/settings/general-info.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -107,11 +109,75 @@
             </div>
             <!-- End Head -->
             <h1 class="p-relative">Settings</h1>
-            <div class="settings-page">
-                <label class="toggle">
-                    <input type="checkbox" checked class="toggle-checkbox">
-                    <div class="toggle-switch"></div>
-                </label>
+            <div class="wrapper d-grid gap-20 gap-10-mobile">
+                <!-- Start Site control -->
+                <div class="widget site-control">
+                    <h2 class="mt-0 mb-10">Site Control</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">Control the website if there is maintenance</p>
+                    <div class="mb-15 between-flex">
+                        <div>
+                            <span>Website Control</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Open/Close website and type the reason</p>
+                        </div>
+                        <div>
+                            <label class="toggle">
+                                <input type="checkbox" checked class="toggle-checkbox">
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <textarea class="close-message b-none border-ccc p-10 mt-10 rad-6 d-block w-full" placeholder="Close Message Content"></textarea>
+                </div>
+                <!-- End Site control -->
+                <!-- Start General Info -->
+                <div class="widget general-info">
+                    <h2 class="mt-0 mb-10">general Info</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">General information about your account</p>
+                    <div class="mb-15">
+                        <label for="first-name" class="fs-14 c-grey d-block mb-5">First Name</label>
+                        <input type="text" class="b-none border-ccc p-10 rad-6 d-block w-full" id="first-name" placeholder="First Name">
+                    </div>
+                    <div class="mb-15">
+                        <label for="last-name" class="fs-14 c-grey d-block mb-5">Last Name</label>
+                        <input type="text" class="b-none border-ccc p-10 rad-6 d-block w-full" id="last-name" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label for="email" class="fs-14 c-grey d-block mb-5">First Name</label>
+                        <input type="email" class="email b-none border-ccc p-10 rad-6 d-block w-full" id="email" placeholder="Email" value="user@example.com" disabled>
+                        <a href="#" class="rad-6 m-10">change</a>
+                    </div>
+                </div>
+                <!-- End General Info -->
+                <!-- Start Security Info -->
+                <div class="widget security-info">
+                    <h2 class="mt-0 mb-10">Security Info</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">Security information about your account</p>
+                    <div class="sec-box mb-15 between-flex">
+                        <div>
+                            <span>Password</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Last change on 25/10/2021</p>
+                        </div>
+                        <a href="#" class="d-block fs-14 bg-blue c-white w-fit btn-shape">Change</a>
+                    </div>
+                    <div class="sec-box mb-15 between-flex">
+                        <div>
+                            <span>Tow-Factor authentication</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Enable/Disable the feature</p>
+                        </div>
+                        <label class="toggle">
+                            <input type="checkbox" checked class="toggle-checkbox">
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+                    <div class="sec-box mb-15 between-flex">
+                        <div>
+                            <span>Devices</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Check the login devices list</p>
+                        </div>
+                        <a href="#" class="d-block fs-14 bg-blue c-white w-fit btn-shape">Devices</a>
+                    </div>
+                </div>
+                <!-- End Security Info -->
             </div>
         </div>
     </div>

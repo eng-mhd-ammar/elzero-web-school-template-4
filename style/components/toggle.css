@@ -1,11 +1,12 @@
 .toggle .toggle-checkbox {
     -webkit-appearance: none;
     appearance: none;
+    display: none;
 }
 
 .toggle .toggle-switch {
     background-color: #CCC;
-    width: 78px;
+    width: 68px;
     height: 32px;
     border-radius: 16px;
     position: relative;
@@ -36,7 +37,7 @@
 }
 
 .toggle .toggle-checkbox:checked + .toggle-switch::before {
-    left: 50px;
+    left: 40px;
     color: var(--blue-color);
     content: "\f00c";
 }

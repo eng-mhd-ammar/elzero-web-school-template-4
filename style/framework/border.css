@@ -13,3 +13,7 @@
 .b-none {
     border: none;
 }
+
+.border-ccc {
+    border: 1px solid #CCC;
+}

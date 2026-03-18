@@ -1,5 +1,4 @@
 .tickets .box {
-    border: 1px solid #CCC;
     width: calc(50% - 10px);
 }
 
