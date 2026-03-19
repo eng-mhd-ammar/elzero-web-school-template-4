@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="../style/components/label.css">
     <link rel="stylesheet" href="../style/components/toggle.css">
     <link rel="stylesheet" href="../style/components/custom-checkbox.css">
+    <link rel="stylesheet" href="../style/components/custom-radio-btn.css">
     
     <!-- Sections CSS Files -->
     <link rel="stylesheet" href="../style/sections/sidebar.css">
@@ -37,6 +38,7 @@
     <link rel="stylesheet" href="../style/sections/settings/general-info.css">
     <link rel="stylesheet" href="../style/sections/settings/security-info.css">
     <link rel="stylesheet" href="../style/sections/settings/social-info.css">
+    <link rel="stylesheet" href="../style/sections/settings/backup-control.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -207,32 +209,73 @@
                 <div class="widget widgets-control">
                     <h2 class="mt-0 mb-10">Widgets Control</h2>
                     <p class="mt-0 mb-20 c-grey fs-15">Show/Hide widgets</p>
-                    <div class="custom-checkbox d-flex align-center mb-15">
+                    <div class="custom-checkbox d-flex align-center pb-10 ">
                         <input type="checkbox" name="" id="one" checked>
                         <label for="one">Quick Draft</label>
                     </div>
-                    <div class="custom-checkbox d-flex align-center mb-15">
+                    <div class="custom-checkbox d-flex align-center pb-10 pt-10">
                         <input type="checkbox" name="" id="two" checked>
                         <label for="two">Yearly targets</label>
                     </div>
-                    <div class="custom-checkbox d-flex align-center mb-15">
+                    <div class="custom-checkbox d-flex align-center pb-10 pt-10">
                         <input type="checkbox" name="" id="three" checked>
                         <label for="three">Ticket Statistics</label>
                     </div>
-                    <div class="custom-checkbox d-flex align-center mb-15">
+                    <div class="custom-checkbox d-flex align-center pb-10 pt-10">
                         <input type="checkbox" name="" id="four">
                         <label for="four">Latest News</label>
                     </div>
-                    <div class="custom-checkbox d-flex align-center mb-15">
+                    <div class="custom-checkbox d-flex align-center pb-10 pt-10">
                         <input type="checkbox" name="" id="five">
                         <label for="five">Latest Tasks</label>
                     </div>
-                    <div class="custom-checkbox d-flex align-center mb-15">
+                    <div class="custom-checkbox d-flex align-center pt-10">
                         <input type="checkbox" name="" id="six" checked>
                         <label for="six">Top Search Items</label>
                     </div>
                 </div>
                 <!-- End Widgets Control -->
+                <!-- Start Backup Control -->
+                <div class="widget backup-control">
+                    <h2 class="mt-0 mb-10">Backup manager</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">Control backup date & location</p>
+                    <div class="date d-flex align-center pb-10 custom-radio-btn">
+                        <input type="radio" name="time" id="daily" checked>
+                        <label for="daily">Daily</label>
+                    </div>
+                    <div class="date d-flex align-center pb-10 pt-10 custom-radio-btn">
+                        <input type="radio" name="time" id="weekly">
+                        <label for="weekly">Weekly</label>
+                    </div>
+                    <div class="date d-flex align-center pb-10 pt-10 custom-radio-btn">
+                        <input type="radio" name="time" id="monthly">
+                        <label for="monthly">Monthly</label>
+                    </div>
+                    <div class="servers d-flex align-center txt-c pt-20 gap-20">
+                        <input type="radio" name="servers" id="server-one" checked>
+                        <div class="server mb-15 rad-10 w-full">
+                            <label class="d-block m-15" for="server-one">
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                Server One
+                            </label>
+                        </div>
+                        <input type="radio" name="servers" id="server-two">
+                        <div class="server mb-15 rad-10 w-full">
+                            <label class="d-block m-15" for="server-two">
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                Server Two
+                            </label>
+                        </div>
+                        <input type="radio" name="servers" id="server-three">
+                        <div class="server mb-15 rad-10 w-full">
+                            <label class="d-block m-15" for="server-three">
+                                <i class="fa-solid fa-server d-block mb-10"></i>
+                                Server Three
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Backup Control -->
             </div>
         </div>
     </div>

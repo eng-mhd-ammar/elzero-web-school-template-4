@@ -1,0 +1,42 @@
+.backup-control .servers input {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+.backup-control .servers {
+    border-top: 1px solid #EEE;
+}
+
+.backup-control .servers .server {
+    border: 2px solid #EEE;
+    position: relative;
+}
+
+.backup-control .servers .server label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.backup-control .servers .server, .backup-control .servers .server label, .backup-control .servers .server label i {
+    cursor: pointer;
+    transition: var(--transition-duration);
+}
+
+.backup-control .servers input[type="radio"]:checked + .server {
+    color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.backup-control .servers input[type="radio"]:hover + .server {
+    border-color: var(--blue-color);
+}
+
+@media (max-width: 767px) {
+    .backup-control .servers {
+        flex-wrap: wrap;
+    }
+}

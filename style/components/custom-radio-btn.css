@@ -1,0 +1,48 @@
+.custom-radio-btn:not(:last-of-type) {
+    border-bottom: 1px solid #EEE;
+}
+
+.custom-radio-btn input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+.custom-radio-btn label {
+    padding-left: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-radio-btn label::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -11px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--grey-color);
+    border-radius: 50%;
+}
+
+.custom-radio-btn label::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: var(--blue-color);
+    border-radius: 50%;
+    transition: var(--transition-duration);
+    transform: translateY(-50%) scale(0);
+}
+
+.custom-radio-btn input[type="radio"]:checked + label::before {
+    border-color: var(--blue-color);
+}
+
+.custom-radio-btn input[type="radio"]:checked + label::after {
+    transform: translateY(-50%) scale(1);
+}
