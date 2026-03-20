@@ -1,0 +1,35 @@
+.other-data .activities-card {
+    flex-grow: 2;
+}
+
+.other-data .activities-card .activity:not(:last-of-type) {
+    border-bottom: 1px solid #EEE;
+}
+
+.other-data .activities-card .activity img {
+    width: 64px;
+    height: 64px;
+}
+
+@media (min-width: 768px) {
+    .other-data .activities-card .activity .date {
+        margin-left: auto;
+        text-align: right;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .other-data .activities-card .activity {
+        flex-direction: column;
+    }
+
+    .other-data .activities-card .activity img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .other-data .activities-card .activity .date {
+        margin-top: 15px;
+    }
+}

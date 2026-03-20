@@ -1,0 +1,26 @@
+.page .info-box .box {
+    border-bottom: 1px solid #EEE;
+    transition: var(--transition-duration);
+}
+
+.page .info-box .box:hover {
+    background-color: #F6F6F6;
+}
+
+
+@media (min-width: 768px) {
+    .page .info-box .box > div {
+        min-width: 200px;
+        padding: 10px 0 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .page .info-box .box {
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+}
