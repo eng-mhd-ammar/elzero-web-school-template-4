@@ -1,0 +1,78 @@
+.project .date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.project .team {
+    position: relative;
+    min-height: 80px;
+}
+
+.project a {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: var(--transition-duration);
+}
+
+.project a:nth-child(2) {
+    left: 25px;
+}
+
+.project a:nth-child(3) {
+    left: 50px;
+}
+
+.project a:nth-child(4) {
+    left: 75px;
+}
+
+.project a:nth-child(5) {
+    left: 100px;
+}
+
+.project a:hover {
+    z-index: 2;
+    transform: scale(1.2);
+}
+
+.project a img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+}
+
+.project .do {
+    justify-content: flex-end;
+    border-top: 1px solid #EEE;
+}
+
+.project .info {
+    border-top: 1px solid #EEE;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.project .prog {
+    height: 6px;
+    width: 70%;
+}
+
+.project .prog span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .project .do {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .project .do span:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+}
