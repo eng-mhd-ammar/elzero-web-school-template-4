@@ -1,0 +1,36 @@
+.wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.friend .contact {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.friend .contact i {
+    color: #666;
+    cursor: pointer;
+    transition: var(--transition-duration);
+    width: 32px;
+    height: 32px;
+}
+
+.friend .contact i:hover {
+    background-color: var(--blue-color) !important;
+    color: white;
+}
+
+.friend .icons {
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.friend .vip {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    opacity: 0.2;
+}
