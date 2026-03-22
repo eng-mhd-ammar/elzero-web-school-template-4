@@ -1,0 +1,33 @@
+.course {
+    overflow: hidden;
+}
+
+.course .cover {
+    width: 100%;
+    /* max-width: 100%; */
+}
+
+.course .cover img {
+    object-fit: fill;
+}
+
+.course .instructor {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 30px;
+    left: 30px;
+    border: 2px solid white;
+}
+
+.course .info {
+    border-top: 1px solid #EEE;
+}
+
+.course .info .title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 27px;
+    top: -13px;
+}
