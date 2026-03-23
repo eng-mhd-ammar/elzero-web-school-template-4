@@ -1,0 +1,49 @@
+.plan .top {
+    border: 3px solid white;
+    outline: 3px solid transparent;
+}
+
+.plan.green .top {
+    outline-color: var(--green-color);
+}
+
+.plan.blue .top {
+    outline-color: var(--blue-color);
+}
+
+.plan.orange .top {
+    outline-color: var(--orange-color);
+}
+
+.plan .price {
+    font-size: 40px;
+    margin: auto;
+}
+
+.plan .price span {
+    left: -20px;
+    top: 0;
+    font-size: 25px;
+}
+
+.plan ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid #EEE;
+}
+
+.plan ul li i:first-child {
+    font-size: 18px;
+}
+
+.plan ul li i.yes{
+    color: var(--green-color);
+}
+
+.plan ul li i.help{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.plan ul li i:not(.yes, .help){
+    color: var(--red-color);
+}
